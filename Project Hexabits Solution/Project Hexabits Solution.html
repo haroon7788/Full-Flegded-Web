@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- CSS Media Query Stylesheets -->
+    <link rel="stylesheet" href="CSS/media@1200.css" />
+    <link rel="stylesheet" href="CSS/media@1024.css" />
+    <link rel="stylesheet" href="CSS/media@992.css" />
+    <link rel="stylesheet" href="CSS/media@768.css" />
+    <link rel="stylesheet" href="CSS/media@668.css" />
+    <link rel="stylesheet" href="CSS/media-others.css" />
+
+    <title>Hexabits Solution | Evolved Wisely</title>
+  </head>
+
+  <body>
+    <!-------------- Top Bar -------------->
+    <div id="top-bar" class="d-none d-lg-block">
+      <div class="container">
+        <ul>
+          <li>
+            <span
+              ><i class="fa fa-map-marker text-warning pe-3"></i> Ali Murtaza
+              Rd, Jahanian 58200, Punjab, PK</span
+            >
+          </li>
+          <li>
+            <span
+              ><i class="fa fa-clock-o text-warning pe-3"></i> Mon - Sat 8.00 -
+              18.00. Sunday CLOSED</span
+            >
+          </li>
+          <li>
+            <span
+              ><i class="fa fa-phone text-warning pe-3"></i>+92 345
+              7393042</span
+            >
+          </li>
+          <li>
+            <span>
+              <div class="dropdown">
+                <button
+                  class="btn btn-warning"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Jahanian Office <i class="bi bi-caret-down-fill ms-3"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Jahanian Office</a></li>
+                  <li><a class="dropdown-item" href="#">Multan Office</a></li>
+                </ul>
+              </div>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-------------- End Top Bar -------------->
+
+    <!-------------- Navigation Bar -------------->
+    <div class="navbar-section">
+      <nav
+        class="navbar navbar-expand-lg navbar-light navbar-fixed-top shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="Images/Hexabits-logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav-mobile"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars text-success"></span>
+          </button>
+
+          <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-none d-lg-flex">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+
+              <div class="social d-none d-lg-flex ms-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="collapse navbar-collapse bg-success d-lg-none"
+        id="navbarNav-mobile"
+      >
+        <div class="container py-4">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-------------- End Navigation Bar -------------->
+
+    <!----------- 2nd Top Bar --------------->
+    <div id="top-bar" class="d-lg-none">
+      <div class="container-fluid">
+        <div class="row pt-4 pb-3 align-items-center">
+          <div class="col-md-3 col-sm-6 py-3 ps-5 ps-md-3">
+            <i class="fa fa-phone d-inline-block pe-2 fs-4"></i>
+            <div class="d-inline-block">
+              +92 345 7393042 <br />
+              Free Call
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 py-3 ps-5 ps-md-3">
+            <i class="fa fa-clock-o d-inline-block pe-2 fs-4"></i>
+            <div class="d-inline-block">
+              Mon - Sat 9.00 - 18.00 <br />
+              Sunday CLOSED
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 py-3 ps-5 ps-md-3">
+            <i class="fa fa-map-marker d-inline-block pe-2 fs-4"></i>
+            <div class="d-inline-block">
+              Housing Scheme, Jahanian 58200, Distt Khanewal, PK
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------- End 2nd Top Bar -------------->
+
+    <!-------------- Image Carousel Section -------------->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide d-none d-md-block"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item img-1 active" data-bs-interval="6500">
+          <div class="carousel-caption text-dark d-none d-md-block">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-md-4 carousel-item-icon">
+                  <h1 class="text-success custom-style">
+                    helping <br />
+                    business
+                  </h1>
+                  <h1 class="text-dark custom-style">
+                    navigate <br />
+                    change.
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item img-2" data-bs-interval="6500">
+          <div class="carousel-caption text-dark d-none d-md-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 text-start text-nowrap">
+                  <h1 class="fw-bolder text-success mb-5">talented team</h1>
+                  <p class="mb-5 fw-light">
+                    We look forward to getting to know you and to <br />
+                    helpingyou take your businesses to new heights!
+                  </p>
+                  <button type="button" id="btn-1" class="btn btn-success me-4">
+                    our services
+                    <i
+                      class="
+                        bi bi-caret-right-fill
+                        ps-2
+                        text-warning
+                        btn-arrow-next
+                      "
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item img-3" data-bs-interval="6500">
+          <div class="carousel-caption text-dark d-none d-md-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 text-start text-nowrap">
+                  <h1 class="fw-bolder text-success mb-5">
+                    thought leadership
+                  </h1>
+                  <p class="mb-5">
+                    With over 10 years of experience helping <br />
+                    businesses to find comprehensive solutions
+                  </p>
+                  <button type="button" id="btn-1" class="btn btn-success me-4">
+                    our company
+                    <i
+                      class="
+                        bi bi-caret-right-fill
+                        ps-2
+                        text-warning
+                        btn-arrow-next
+                      "
+                    ></i>
+                  </button>
+                  <button
+                    type="button"
+                    id="btn-2"
+                    class="btn btn-warning text-success"
+                  >
+                    contact us
+                    <i class="btn-2-arrow bi bi-caret-right-fill ps-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-------------- End Image Carousel Section -------------->
+
+    <!-------------- Carousel Footer -------------->
+    <div id="carousel-footer">
+      <div class="container-fluid bg-warning h-auto">
+        <div class="heading">looking for a first-class business product?</div>
+        <button type="button" class="btn btn-success">
+          get a qoute
+          <i class="bi bi-caret-right-fill ps-2 text-warning"></i>
+        </button>
+      </div>
+    </div>
+    <!-------------- End Carousel Footer -------------->
+
+    <!------------ Card Section ------------>
+    <div id="card-section">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card first-card">
+              <img
+                src="Images/card1.jpeg"
+                class="card-img-top position-relative w-100"
+                alt="..."
+              />
+              <div class="card-body card-body position-absolute">
+                <h5 class="card-title py-4">Why our services</h5>
+                <p class="card-text">
+                  We have a team of experts, we will provide you best business
+                  products for related to your business.
+                </p>
+                <a href="#" class="text-warning">read more</a>
+                <i
+                  class="fa fa-chevron-right text-warning"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card second-card">
+              <img
+                src="Images/card2.jpg"
+                class="card-img-top position-relative w-100"
+                alt="..."
+              />
+              <div class="card-body card-body position-absolute">
+                <h5 class="card-title py-4">Company history</h5>
+                <p class="card-text">
+                  Hexabits Solutions was founded by Muhammad Sajjad Tahir in
+                  April, 2017.
+                </p>
+                <a href="#" class="text-warning">read more</a>
+                <i
+                  class="fa fa-chevron-right text-warning"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card third-card">
+              <img
+                src="Images/card3.jpg"
+                class="card-img-top position-relative w-100"
+                alt="..."
+              />
+              <div class="card-body card-body position-absolute">
+                <h5 class="card-title py-4">
+                  Development <br class="d-xl-none" />
+                  Approach
+                </h5>
+                <p class="card-text">
+                  We put ourselves in our clients’ shoes, align our incentives
+                  with their objectives, and collaborate to unlock the full
+                  potential of their business.
+                </p>
+                <a href="#" class="text-warning">read more</a>
+                <i
+                  class="fa fa-chevron-right text-warning"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Card Section ------------>
+
+    <!------------ Services Section ------------>
+    <div id="services-section">
+      <h1 class="text-center text-success sections-heading">services</h1>
+      <div class="border-top custom-border rounded-pill mx-auto my-3"></div>
+      <div class="container-md">
+        <div class="row align-items-start">
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-1">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">
+                  Custom Software Development
+                </h5>
+                <p class="card-text text-secondary">
+                  We offer custom software development services for a wide range
+                  of verticals and business domains.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-2">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">
+                  Web Design & Development
+                </h5>
+                <p class="card-text text-secondary">
+                  Creative team for providing world-class responsive web design
+                  & development services to enhance your digital presence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-3">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">Mobile App Development</h5>
+                <p class="card-text text-secondary">
+                  Hexabits Solution is ready to make an competitive mobile app
+                  for you to help in growing your business and ideas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-4">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">E-commerce</h5>
+                <p class="card-text text-secondary">
+                  Electronic commerce is the buying and selling of goods and
+                  services, the transmitting of funds by the internet. Make your
+                  first E-commerce product with us!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-5">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">SEO & Back-linking</h5>
+                <p class="card-text text-secondary">
+                  We work across all the major categories of search engine
+                  optimization & Back-linking, which are the basic need for a
+                  website to get a higher rank around the globe.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body service-icon-6">
+                <i class="text-success bi bi-hexagon"></i>
+                <h5 class="card-title text-success">24/7 Support</h5>
+                <p class="card-text text-secondary">
+                  We also offer 24/7 customer service to reach 100% Customer’s
+                  satisfaction guaranteed. So you can contact us anytime for the
+                  queries related the product.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Services Section ------------>
+
+    <!------------ Fixed Background Image Section ------------>
+    <div id="fixed-image-section">
+      <div class="bg-img-container">
+        <div class="container py-5 bg-img-text">
+          <div class="row w-75 p-5">
+            <div class="row-fluid w-100 inner-heading">
+              <h1 class="mb-5 .heading-1">
+                <i
+                  class="fa fa-check-square-o text-warning"
+                  aria-hidden="true"
+                ></i>
+                <div id="heading-1" class="text-nowrap">
+                  <span class="text-warning"> Doing the right thing, </span>
+                  <br />
+                  at the right time.
+                </div>
+                <!-- For Text Wrap -->
+                <div id="heading-2" class="d-none">
+                  <span class="text-warning d-block">
+                    Doing the right thing,
+                  </span>
+                  at the right time.
+                </div>
+              </h1>
+            </div>
+            <div class="row inner">
+              <div class="col-md-3">
+                <h1>113</h1>
+                <p>Project completed</p>
+              </div>
+              <div class="col-md-3">
+                <h1>6</h1>
+                <p>Team members</p>
+              </div>
+              <div class="col-md-3">
+                <h1>8</h1>
+                <p>Awards winnings</p>
+              </div>
+              <div class="col-md-3">
+                <h1>100%</h1>
+                <p>Satisfied customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Fixed Background Image Section ------------>
+
+    <!------------ Testimonials Section ------------>
+    <div id="testimonials-section">
+      <h1 class="text-center text-success sections-heading">testimonials</h1>
+      <div class="border-top custom-border rounded-pill mx-auto my-3"></div>
+
+      <!-- Slider for under 768px Devices -->
+      <div class="container-fluid" id="under-769">
+        <div
+          id="carousel-slider"
+          class="carousel slide my-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner pt-4">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="Images/smith.png" class="w-100" id="man" alt="..." />
+              <div class="card-body py-3 px-0 w-100" id="man-info">
+                <a
+                  href=""
+                  class="testimonials-heading d-inline-block text-success"
+                >
+                  <h5 class="card-title fw-bold">Smith Johnson</h5>
+                </a>
+                <h6 class="card-title text-secondary">United States</h6>
+                <p class="card-text">
+                  Excellent seller. Software was better than I could’ve ever
+                  expected. Easy directions and seller is always available to
+                  handle any issues you may have. Will definitely order from
+                  them.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="Images/evaha.png" class="w-70" id="woman" alt="..." />
+              <div class="card-body py-0 px-0 w-100" id="woman-info">
+                <a
+                  href=""
+                  class="testimonials-heading d-inline-block text-success"
+                >
+                  <h5 class="card-title fw-bold">Evaha Safitry</h5>
+                </a>
+                <h6 class="card-title text-secondary">United Kingdom</h6>
+                <p class="card-text">
+                  Haris is very professional. He provided absolutely great
+                  service. He did everything that was promised and more. I am
+                  extremely impressed with the outcome. He was very responsive
+                  and helpful. Great to work with! He did great job and I am
+                  satisfied with everything! I highly recommend his
+                  services!!!!!!!!!!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-slider"
+            data-bs-slide="prev"
+          ></button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-slider"
+            data-bs-slide="next"
+          ></button>
+        </div>
+      </div>
+
+      <!-- Slider for Large Screen Devices and Desktops -->
+      <div class="container d-none py-5" id="above-769">
+        <a href="#" class="img-link">
+          <img src="Images/smith.png" id="man-lg" alt="..." />
+          <div class="hover-box">
+            <p>+</p>
+          </div>
+        </a>
+        <div class="card-body py-0 ps-4 pe-5 w-75" id="">
+          <a href="" class="testimonials-heading d-inline-block text-success">
+            <h5 class="card-title fw-bold">Smith Johnson</h5>
+          </a>
+          <h6 class="card-title text-secondary">United States</h6>
+          <p class="card-text">
+            Excellent seller. Software was better than I could’ve ever expected.
+            Easy directions and seller is always available to handle any issues
+            you may have. Will definitely order from them.
+          </p>
+        </div>
+
+        <a href="#" class="img-link">
+          <img
+            src="Images/evaha.png"
+            id="woman-lg"
+            alt="..."
+            style="height: 242px !important; width: 237px !important"
+          />
+          <div
+            class="hover-box"
+            style="height: 242px !important; width: 237px !important"
+          >
+            <p>+</p>
+          </div>
+        </a>
+        <div class="card-body py-0 px-5 w-75" id="">
+          <a href="" class="testimonials-heading d-inline-block text-success">
+            <h5 class="card-title fw-bold">Evaha Safitry</h5>
+          </a>
+          <h6 class="card-title text-secondary">United Kingdom</h6>
+          <p class="card-text">
+            Haris is very professional. He provided absolutely great service. He
+            did everything that was promised and more. I am extremely impressed
+            with the outcome. He was very responsive and helpful. Great to work
+            with! He did great job and I am satisfied with everything! I highly
+            recommend his services!!!!!!!!!!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!------------ End Testimonials Section ------------>
+
+    <!------------ Second Fixed Background Section ------------>
+    <div id="second-fixed-bg-image">
+      <div id="sec-fix-color">
+        <div class="d-flex justify-content-center align-items-center">
+          <h3 class="my-2 py-5 fw-bold text-white text-center">
+            Don’t look around you, just look forward to
+            <span class="text-warning d-block">
+              make an outclass business product.</span
+            >
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!------------ End Second Fixed Background Section ------------>
+
+    <!------------ Blog Section ------------>
+    <div id="blog-section" class="my-5">
+      <h1 class="text-center sections-heading">blog</h1>
+      <div class="border-top custom-border rounded-pill mx-auto my-3"></div>
+
+      <div class="container-md mt-5">
+        <div class="card border-0" style="width: 16rem">
+          <a href="#" class="img-link">
+            <img src="/Images/urdu-2.png" class="card-img-top" alt="..." />
+            <div class="hover-box">
+              <p>+</p>
+            </div>
+          </a>
+
+          <div class="card-body ps-0">
+            <div class="border-top custom-border-2 my-3"></div>
+            <a href="" class="card-title text-success">
+              UrduScript – first Urdu based programming language
+            </a>
+            <p class="card-text text-success">
+              <small class="text-muted">
+                <i
+                  class="fa fa-clock-o text-warning me-1"
+                  aria-hidden="true"
+                ></i>
+                <span> February 22, 2018 </span>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Blog Section ------------>
+
+    <!------------ Form Section ------------>
+    <div id="form-section" class="mt-5 bg-dark text-light">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-4 mt-5 mb-md-5 pt-5 pb-md-5">
+            <h1>request a call back.</h1>
+            <p>
+              Would you like to speak to one of our team member over the phone?
+              Just submit your details and we’ll be in touch shortly. You can
+              also email us if you would prefer.
+            </p>
+          </div>
+
+          <div class="col-md-8 my-md-5 py-md-5">
+            <span>I would like to discuss:</span>
+            <div class="row">
+              <div class="col-md-6 mt-1">
+                <div class="form-buttons-1 mt-1 mt-md-2">
+                  <select
+                    id="plan"
+                    name="plan"
+                    class="form-select w-100 mb-4 mb-md-5"
+                    aria-label=".form-select example"
+                  >
+                    <option value="business" selected>Business Planning</option>
+                    <option value="website">Website Development</option>
+                    <option value="desktop">Desktop Application</option>
+                    <option value="mobile">Mobile Application</option>
+                    <option value="e-com">E-commerce</option>
+                    <option value="seo">SEO</option>
+                  </select>
+                  <input
+                    type="text"
+                    class="formInput w-100 mb-4 mb-md-5"
+                    placeholder="Phone Number"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-6 mt-md-1">
+                <div class="form-buttons mt-1 mt-md-2">
+                  <div class="form-buttons-2 mb-5 mb-md-0 pb-5 pb-md-0">
+                    <input
+                      type="text"
+                      class="formInput w-100 mb-4 mb-md-5"
+                      placeholder="First Name"
+                    />
+                    <button
+                      type="button"
+                      id="btn-1"
+                      class="btn btn-success d-block mb-4 mb-md-5"
+                    >
+                      submit
+                      <i
+                        class="
+                          fa fa-chevron-right
+                          ps-2
+                          text-warning
+                          btn-next-icon
+                        "
+                      ></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Form Section ------------>
+
+    <!------------ Map Section ------------>
+    <div id="map-section" class="bg-success my-0">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            class="gmap_iframe"
+            width="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=hexabits solution pakistan&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe
+          ><a href="https://www.fnfgo.com/">FNF Online</a>
+        </div>
+      </div>
+
+      <div id="map-content" class="container-md py-5">
+        <div class="row">
+          <div class="col-md-4 mt-5 1st-column">
+            <ul class="1st-ul me-4 me-md-1">
+              <li>
+                <h5 class="fw-bold text-light">Multan Office</h5>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt pe-2"></i>
+                Multan Trade Center, Khanewal Road, Multan 60000, Pakistan
+              </li>
+              <li>
+                <i class="fa fa-mobile pe-2" aria-hidden="true"></i>
+                +92 303 7313929
+              </li>
+              <li>
+                <i class="fa fa-envelope-o pe-2" aria-hidden="true"></i>
+                <a href="">haris@hexabits.pk</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mt-5 2nd-column">
+            <ul class="2nd-ul me-4 me-md-1">
+              <li>
+                <h5 class="fw-bold text-light">Sub Office</h5>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt pe-2"></i>
+                Chack No. 113/10R, Jahanian 58200, Punjab, PK
+              </li>
+              <li>
+                <i class="fa fa-mobile pe-2" aria-hidden="true"></i>
+                +92 303 7396113
+              </li>
+              <li>
+                <i class="fa fa-envelope-o pe-2" aria-hidden="true"></i>
+                <a href="">admin@hexabits.pk</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-5 3rd-column">
+            <ul class="3rd-ul me-4 me-md-1">
+              <li>
+                <h5 class="fw-bold text-light">Main Office</h5>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt pe-2"></i>
+                Ali Murtaza Rd, Jahanian 58200, Punjab, PK
+              </li>
+              <li>
+                <i class="fa fa-mobile pe-2" aria-hidden="true"></i>
+                +92 303 7393042
+              </li>
+              <li>
+                <i class="fa fa-envelope-o pe-2" aria-hidden="true"></i>
+                <a href="">contact@hexabits.pk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ End Map Section ------------>
+
+    <!-- Footer Section -->
+    <footer id="page-footer" class="bg-success py-4">
+      <div class="container-md footer-line">
+        <div class="row mt-5">
+          <div class="col-md-3 pt-5 pt-md-0">
+            <a href=""><img src="Images/Hexabits-Final-dark.png" alt="" /></a>
+            <p>
+              Hexabits Solutions is a global leader of next generation’s
+              information technology service providers, originally based in
+              Jahanian, Pakistan. Our simple agenda is delivering best Mobile,
+              Software & Website solutions to our clients according to their
+              requirements. Contact Us Now!
+            </p>
+          </div>
+
+          <div class="col-md-3 py-5 py-md-0">
+            <h4 class="heading-5-border">recent post</h4>
+            <a class="yellow-link" href=""
+              >UrduScript – first Urdu based programming language</a
+            >
+            <p class="my-2">
+              <i class="fa fa-clock-o text-warning pe-2" aria-hidden="true"></i>
+              February 22, 2018
+            </p>
+          </div>
+
+          <div class="col-md-3 py-5 py-md-0">
+            <h4 class="heading-5-border">useful links</h4>
+            <div class="row">
+              <div class="col-6 py-3 d-flex flex-column">
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Our approach</a>
+                <a href="">Services</a>
+              </div>
+              <div class="col-6 py-3 d-flex flex-column">
+                <a href="">Blog</a>
+                <a href="">Our team</a>
+                <a href="">Portfolio</a>
+                <a href="">Testimonials</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pt-5 pt-md-0">
+            <h4>subscribe</h4>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Your E-mail"
+                aria-label="email-id"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-warning text-success"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </button>
+            </div>
+            <p class="mt-1">Get latest updates and offers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md copyrights-line">
+        <div class="mt-3">
+          <p class="d-inline">
+            Copyright &copy; 2020 Hexabits Solutions. All rights reserved.
+          </p>
+        </div>
+        <div class="mt-3">
+          <a href="#" class="icon-fb d-inline me-1 text-decoration-none">
+            <i class="fa fa-circle facebook-icon"></i>
+          </a>
+          <a href="#" class="icon-tw d-inline text-decoration-none">
+            <i class="fa fa-circle twitter-icon"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-------------- Bootstrap Bundle with Popper -------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

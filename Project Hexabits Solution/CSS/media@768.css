@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px){
+
+    /*********** Carousel Footer ***********/
+    #carousel-footer .container-fluid{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        height: 130px;
+    }
+    #carousel-footer div.heading{
+        margin-bottom: 16px;
+    }
+    #carousel-footer{
+        transform: translateY(112px) !important;
+    }
+
+
+
+
+    /********** Card Section **********/
+    #card-section{
+        transform: translateY(168px) !important;
+    }
+    #card-section .card{
+        overflow-y: hidden !important;
+    }
+    #card-section .card-body{
+        transform: translateY(0) !important;
+        width: 100% !important;
+        color: white;
+        padding: 0 14px !important;
+        height: 100%;
+        background-color: #198754dc;
+    }
+    #card-section img{
+        width: 50% !important;
+    }
+    #card-section .card-body a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px !important;
+    }
+    #card-section .card-body a:hover{
+        color: white !important;
+    }
+    #card-section .card-body p{
+        font-size: 13px !important;
+    }
+    #card-section .card-body h5{
+        padding-left: 0px !important;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    #card-section .card-body i{
+        font-size: 13px !important;
+    }
+   
+
+    #card-section .first-card .card-body::before,
+    #card-section .second-card .card-body::before,
+    #card-section .third-card .card-body::before{
+        display: none !important;
+    }
+
+
+
+    /*********** Services Section ***********/
+    #services-section{
+        transform: translateY(224px); 
+    }
+
+
+
+
+    /*********** Fixed Image Section ***********/
+    .bg-img-text{
+        left: -60px !important;
+    }
+    #fixed-image-section{
+        transform: translateY(224px); 
+    }
+    
+    
+    
+
+
+    /*********** Testimonials Section ***********/
+    #testimonials-section{
+        transform: translateY(224px); 
+    }
+    
+    
+    
+
+    /*********** Second Fixed Background Image ***********/
+    #second-fixed-bg-image{
+        transform: translateY(224px);
+    }
+
+
+
+
+    /*********** Blog Section ***********/
+    #blog-section{
+        transform: translateY(224px);
+    }
+
+
+
+
+    /*********** Form Section ***********/
+    #form-section{
+        transform: translateY(224px);
+    }
+}
+
+
+
+

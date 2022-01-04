@@ -1,0 +1,50 @@
+/*********** Testimonials Section Under Medium Devices ***********/
+@media screen and (min-width: 769px){
+    #under-769{
+        display: none !important;
+    }
+    #above-769{
+        display: flex !important;
+    }
+    #testimonials-section img{
+        width: 250px !important;
+        height: 180px !important;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 668px){
+    #man.w-100{
+        width: 340px !important;
+    }
+}
+
+@media (min-width: 668px){
+    #man.w-100{
+        width: 35% !important;
+    }
+    #testimonials-section .carousel-item.active {
+        display: flex !important;
+    }
+    #man-info.px-0{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    #man-info.py-3{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+
+
+/* Card Section */
+@media screen and (min-width: 1400px){
+    #card-section .card-body{
+        transform: translateY(210px) !important;
+    }
+    #card-section .first-card:hover .card-body,
+    #card-section .second-card:hover .card-body,
+    #card-section .third-card:hover .card-body{
+        transform: translateY(0) !important;
+    }
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width: 1200px){
+
+    /********** Card Section **********/
+
+    #card-section .first-card .card-body::before,
+    #card-section .second-card .card-body::before,
+    #card-section .third-card .card-body::before{
+        left: 15px;
+    }
+    #card-section .card-body{
+    transform: translateY(135px) !important;
+    padding: 0 16px !important;
+    }
+    #card-section .card-body h5{
+        padding-left: 50px !important;
+    }
+    #card-section .card-body i{
+        margin-top: 6px !important;
+    }
+    #card-section .first-card .card-body::before,
+    #card-section .second-card .card-body::before,
+    #card-section .third-card .card-body::before{
+        top: 10px !important;
+    }
+    #card-section .first-card:hover .card-body,
+    #card-section .second-card:hover .card-body,
+    #card-section .third-card:hover .card-body{
+        transform: translateY(0) !important;
+    }
+    #card-section .first-card:hover .card-body::before,
+    #card-section .second-card:hover .card-body::before,
+    #card-section .third-card:hover .card-body::before{
+        top: 10px !important;
+    }
+
+
+
+    /*********** Fixed Image Section ***********/
+    .bg-img-container{
+        background-attachment: local;
+    }
+    .bg-img-text{
+        left: -30px !important;
+    }
+    #heading-1{
+        position: relative;
+        left: 90px;
+    }
+    .fa-check-square-o{
+        position: relative !important;
+        left: 0px;
+        top: 70px;
+    }
+
+
+
+    /*********** Second Fixed Background Section ***********/
+    #second-fixed-bg-image{
+        background-attachment: local !important;
+    }
+}

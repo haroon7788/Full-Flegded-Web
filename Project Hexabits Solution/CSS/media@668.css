@@ -1,0 +1,79 @@
+@media screen and (max-width: 668px){
+
+    /*********** Carousel Footer ***********/
+    #carousel-footer .container-fluid{
+        align-items: center;
+    }
+
+
+    /********** Card Section **********/
+    #card-section .card-body{
+        padding: 0 12px !important;
+    }
+    #card-section .card-body h5{
+        padding-left: 10px !important;
+    }
+    #card-section .first-card h5::before{
+        content: "\f201";
+    }
+    #card-section .second-card h5::before{
+        content: "\f021";
+    }
+    #card-section .third-card h5::before{
+        content: "\f0ac";
+    }
+    #card-section .first-card h5::before,
+    #card-section .second-card h5::before,
+    #card-section .third-card h5::before{
+        font-family: FontAwesome;
+        color: #ffc107;
+        font-size: 40px;
+        position: relative;
+        left: -10px;
+        top: 10px;
+        z-index: 100;
+    }
+
+
+
+
+    /*********** Fixed Image Section ***********/
+    .img-heading{
+        text-align: center !important;
+        word-wrap: break-word !important;
+    }
+    .inner h1,
+    .inner p{
+        text-align: center !important;
+    }
+    .bg-img-text .w-75{
+        width: 100% !important;
+    }
+    #heading-1{
+        display: none !important;
+    }
+    #heading-2{
+        display: block !important;
+        transform: translateX(90px);
+    }
+    .bg-img-text{
+        left: -50px !important;
+    }
+
+
+
+
+
+    /*********** Page Footer ***********/
+    .copyrights-line{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+

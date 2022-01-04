@@ -1,0 +1,43 @@
+@media screen and (max-width: 992px) {
+    /*********** Top Bar ***********/
+    #top-bar{
+        background-color: #198754;
+        color: white;
+        font-size: 14px;
+    }
+    ul{
+        min-height: 110px;
+    }
+    ul li i{
+        color: #a8c9c6 !important;
+    }
+
+
+
+    /*********** Image Carousel Section ***********/
+    .carousel-caption h1{
+        font-size: 2.5rem !important;
+    }
+    .carousel-caption p{
+        font-size: 1rem !important;
+    }
+    .carousel-caption{
+        top: 15% !important;
+    }
+    .carousel-caption button{
+        padding: 10px 12px !important;
+    }
+
+
+
+    /*********** Carousel Footer ***********/
+    #carousel-footer .container-fluid{
+        padding: 1rem;
+    }
+    
+
+
+
+    
+    
+}

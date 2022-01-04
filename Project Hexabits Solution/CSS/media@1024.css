@@ -1,0 +1,85 @@
+@media screen and (max-width: 1024px){
+    /*********** Navigation Bar ***********/
+    nav{
+        background-color: white;
+    }
+
+
+    /*********** Image Carousel Section ***********/
+    #carouselExampleInterval{
+        transform: translateY(0) !important;
+    }
+
+
+    /*********** Carousel Footer ***********/
+    #carousel-footer{
+        transform: translateY(0) !important;
+    }
+
+
+    /*********** Card Section ***********/
+    #card-section{
+        transform: translateY(56px);
+    }
+    
+    
+    /*********** Services Section ***********/
+    #services-section{
+        transform: translateY(112px);    
+    }
+
+
+    /*********** Fixed Image Section ***********/
+    #fixed-image-section{
+        transform: translateY(112px);
+    }
+
+
+
+    /*********** Testimonials Section ***********/
+    #testimonials-section{
+        transform: translateY(112px);
+    }
+    
+    
+    
+    
+    /*********** Second Fixed Background Section ***********/
+    #second-fixed-bg-image{
+        transform: translateY(112px);
+    }
+
+
+
+
+    /*********** Blog Section ***********/
+    #blog-section{
+        transform: translateY(112px);
+    }
+
+
+
+
+    /*********** Form Section ***********/
+    #form-section{
+        transform: translateY(112px);
+    }
+
+
+
+
+    /*********** Map Section ***********/
+    #map-section{
+        transform: translateY(112px);
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+
+    /*********** Page Footer ***********/
+    #page-footer{
+        transform: translateY(112px);
+    }
+}
